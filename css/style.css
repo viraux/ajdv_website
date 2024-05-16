@@ -2,3 +2,30 @@ div.skip_div {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+
+div.skip_div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+a.skip{
+    background: black;
+    justify-self: center;
+    padding: 6px;
+    position: absolute;
+    top: -80px;
+    border-radius: 5px;
+    transition: top .8s ease-in-out; 
+    z-index: 1;
+  }
+
+a.skip:link, a.skip:visited {
+    color: white;
+}
+  
+a.skip:focus{
+    top:20px;
+    color: white;
+    text-decoration-style: solid;
+}

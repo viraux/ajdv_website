@@ -1,3 +1,11 @@
+h1 {
+    text-align: center;
+    padding: 5%;
+    font-size: 200%;
+
+}
+
+
 div.skip_div {
     display: grid;
     grid-template-columns: 1fr;
@@ -28,4 +36,12 @@ a.skip:focus{
     top:20px;
     color: white;
     text-decoration-style: solid;
+}
+
+.aurora{
+    background-image: url(../index_images/nl1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    padding: 10% 5%;
 }

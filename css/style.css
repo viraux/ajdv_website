@@ -1,0 +1,4 @@
+div.skip_div {
+    display: grid;
+    grid-template-columns: 1fr;
+}

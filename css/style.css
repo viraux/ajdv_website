@@ -1,8 +1,21 @@
-h1 {
-    text-align: center;
-    padding: 5%;
-    font-size: 200%;
 
+
+
+body{
+    font-family: Times, Times New Roman, Palatino, serif;
+    /* background-color: rgb(73, 72, 72); */
+    color: azure;
+    background: rgb(130,125,125);
+    background: radial-gradient(circle, rgba(130,125,125,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+
+h1 {
+    padding: 2% 5%;
+    font-size: 7.2vw;
+    line-height: 150%;
+    font-family: Apple Chancery, URW Chancery L,cursive;
 }
 
 
@@ -43,5 +56,33 @@ a.skip:focus{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 150%;
-    padding: 10% 5%;
+    padding: 2% 5%;
 }
+
+.Tolk{
+    text-align: right;
+    font-size: 60%;
+}
+
+@media screen and (min-width: 673px) {
+
+    h1{
+        padding: 20% 5% 30%;
+    }
+
+    .Those{
+        text-align: center;
+        font-size: 5.2vw;
+    }
+
+    .Tolk{
+        text-align: center;
+    }
+
+    .aurora{
+        background-attachment: fixed;
+    }
+
+
+}
+
